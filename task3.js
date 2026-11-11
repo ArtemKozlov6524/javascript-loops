@@ -1,12 +1,18 @@
-let sum = 0;
-let i = 1;
-let count = 0;
+const car1 = {
+    brand: "Toyota",
+    model: "Camry",
+    year: 2020
+};
 
-while (sum <= 100) {
-    sum = sum + i;
-    count = count + 1;
-    i = i + 1;
-}
+const car2 = {
+    brand: "BMW",
+    model: "X5",
+    owner: "����"
+};
 
-console.log("Сумма:", sum);
-console.log("Количество добавленных чисел:", count);
+const car3 = {
+    ...car1,
+    ...car2
+};
+
+console.log(car3);

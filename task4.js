@@ -1,21 +1,11 @@
-let passwords = ["12345", "password", "admin123"];
-let i = 0;
-let found = false;
+const person = {
+    firstName: "�����",
+    lastName: "��������",
+    age: 25
+};
 
-do {
-    let currentPassword = passwords[i];
+person.email = "olena@example.com";
 
-    if (currentPassword === "admin123") {
-        console.log("Доступ дозволено");
-        found = true;
-    } else {
-        console.log("Неправильний пароль");
-    }
+delete person.age;
 
-    i = i + 1;
-
-} while (!found && i < passwords.length);
-
-if (!found) {
-    console.log("Все пароли неправильные. Доступ запрещён.");
-}
+console.log(person);

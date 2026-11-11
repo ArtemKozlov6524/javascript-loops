@@ -1,20 +1,8 @@
-console.log("=== –ß–∏—Å–ª–∞ –æ—Ç 1 –¥–æ 30 ===");
-for (let i = 1; i <= 30; i++) {
-console.log(i);
-}
+const student = {};
 
-console.log("=== –¢–æ–ª—å–∫–æ —á—ë—Ç–Ω—ã–µ —á–∏—Å–ª–∞ –æ—Ç 1 –¥–æ 30 ===");
-for (let i = 1; i <= 30; i++) {
-    if (i % 2 === 0) {
-        console.log(i);
-    }
-}
+student.firstName = "¿Ú∏Ï";
+student.lastName = " ÓÁÎÓ‚";
+student.age = 20;
+student.courses = ["Ã‡ÚÂÏ‡ÚËÍ‡", "≤ÒÚÓ≥ˇ", "œÓ„‡ÏÛ‚‡ÌÌˇ"];
 
-console.log("=== –°—É–º–º–∞ –Ω–µ—á—ë—Ç–Ω—ã—Ö —á–∏—Å–µ–ª –æ—Ç 1 –¥–æ 30 ===");
-let sum = 0;
-for (let i = 1; i <= 30; i++) {
-    if (i % 2 !== 0) {
-        sum = sum + i;
-    }
-}
-console.log("–°—É–º–º–∞ –Ω–µ—á—ë—Ç–Ω—ã—Ö —á–∏—Å–µ–ª:", sum);
+console.log(student);

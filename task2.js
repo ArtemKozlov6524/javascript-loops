@@ -1,6 +1,10 @@
-let number = 5; 
-console.log("РўР°Р±Р»РёС†Р° СѓРјРЅРѕР¶РµРЅРёСЏ РґР»СЏ С‡РёСЃР»Р°", number);
+const book = {
+    title: "Гаррі Поттер",
+    author: "Дж. К. Роулінг",
+    year: 1997
+};
 
-for (let i = 1; i <= 10; i++) {
-    console.log(number + " Г— " + i + " = " + (number * i));
-}
+const { title, author } = book;
+
+console.log(title);
+console.log(author);
